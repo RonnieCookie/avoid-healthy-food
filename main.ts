@@ -1,6 +1,13 @@
 namespace SpriteKind {
     export const HethyFood = SpriteKind.create()
 }
+// Functions
+function makeEnemy(){
+
+}
+
+
+
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     myGirl.setImage(myGirlLeftImg)
 })
